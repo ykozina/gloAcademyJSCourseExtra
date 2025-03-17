@@ -1,8 +1,8 @@
 //создаем переменную для числа
-let num = 266219;
+const num = 266219;
 
 //переводим число в массив символов
-let digits = num.toString().split("");
+const digits = num.toString().split("");
 
 //создаем переменную для результата
 let result = 1;
@@ -26,8 +26,8 @@ console.log("При возведении полученного результа
 
 console.log("\n\n Начало второго решения \n\n")
 
-let num2 = 266219;
-let digits2 = [...num2.toString().split("")].map(Number);
+const num2 = 266219;
+const digits2 = [...num2.toString().split("")].map(Number);
 let result2 = 1;
 
 digits2.forEach(element => {
