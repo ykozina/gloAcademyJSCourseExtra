@@ -10,7 +10,6 @@ section {
 
 .week__wrapper {
     margin: auto !important;
-    //border: solid 1px #000;
     width: 80%;
     display: flex;
     flex-direction: column;
